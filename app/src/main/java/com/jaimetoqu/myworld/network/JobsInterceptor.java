@@ -2,13 +2,6 @@ package com.jaimetoqu.myworld.network;
 
 import android.util.Log;
 
-import java.io.IOException;
-import java.util.concurrent.TimeUnit;
-
-import okhttp3.Interceptor;
-import okhttp3.OkHttpClient;
-import okhttp3.Request;
-import okhttp3.Response;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
@@ -18,7 +11,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class JobsInterceptor {
 
-    public static final String BASE_URL = "https://immense-beyond-53348.herokuapp.com";
+    public static final String BASE_URL = "http://noborders.herokuapp.com";
     public static final int CODE = 200;
 
     public Jobs get() {

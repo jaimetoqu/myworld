@@ -15,8 +15,15 @@
     <ImageButton
         android:id="@+id/nextIbtn"
         android:layout_centerInParent="true"
+        android:scaleType="centerCrop"
+        android:layout_marginLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingLeft="8dp"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:layout_marginRight="16dp"
         android:background="@color/colorAccent"
-        android:src="@mipmap/ic_launcher"
+        android:src="@mipmap/ic_send_white_24dp"
         android:layout_toEndOf="@+id/languageSp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
