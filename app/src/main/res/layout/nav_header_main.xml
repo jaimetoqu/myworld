@@ -11,7 +11,7 @@
         android:layout_height="120dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="34dp"
-        android:src="@mipmap/groupxxxdpi"
+        android:src="@mipmap/imgh"
         app:siBorderColor="@android:color/black"
         app:siBorderWidth="2dp" />
 
