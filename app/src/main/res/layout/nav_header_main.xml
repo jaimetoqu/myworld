@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <com.github.siyamed.shapeimageview.CircularImageView
+        android:id="@+id/avatarSi"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:src="@mipmap/ic_launcher"
+        app:siBorderColor="@android:color/black"
+        app:siBorderWidth="2dp" />
+
+    <View
+        android:id="@+id/viewV"
+        android:layout_marginTop="8dp"
+        android:layout_below="@+id/avatarSi"
+        android:background="@android:color/black"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"
+        android:text="Nombre Completo:"
+        android:padding="8dp"
+        android:textStyle="bold"
+        android:layout_marginStart="16dp"
+        android:layout_below="@+id/viewV"
+        android:textColor="@android:color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/namT"
+        android:padding="8dp"
+        android:textSize="16sp"
+        android:layout_marginStart="16dp"
+        android:text="juanq@gmail.com"
+        android:textColor="@android:color/black"
+        android:layout_below="@id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:textSize="16sp"
+        android:text="Email:"
+        android:textStyle="bold"
+        android:padding="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_below="@+id/namT"
+        android:textColor="@android:color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/nameTv"
+        android:padding="8dp"
+        android:textSize="16sp"
+        android:layout_marginStart="16dp"
+        android:text="juanq@gmail.com"
+        android:textColor="@android:color/black"
+        android:layout_below="@id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:text="Idiomas:"
+        android:textStyle="bold"
+        android:padding="8dp"
+        android:layout_marginStart="16dp"
+        android:textSize="16sp"
+        android:layout_below="@+id/nameTv"
+        android:textColor="@android:color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/capitalTv"
+        android:padding="8dp"
+        android:layout_marginStart="16dp"
+        android:textSize="16sp"
+        android:text="ingles, español"
+        android:textColor="@android:color/black"
+        android:layout_below="@id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:text="País:"
+        android:padding="8dp"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_marginStart="16dp"
+        android:layout_below="@id/capitalTv"
+        android:textColor="@android:color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/regionTv"
+        android:padding="8dp"
+        android:text="Chile"
+        android:textSize="16sp"
+        android:layout_marginStart="16dp"
+        android:textColor="@android:color/black"
+        android:layout_below="@id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+</RelativeLayout>

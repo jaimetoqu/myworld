@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">MyWorld</string>
+
+    <string name="languages">Seleccione el idioma</string>
+    <string name="english">Ingles</string>
+    <string name="spanish">Español</string>
+    <string name="german">Aleman</string>
+    <string name="french">Frances</string>
+    <string name="italian">Italiano</string>
+    <string name="arabic">Arabe</string>
+
+    <array name="languages">
+        <item>@string/languages</item>
+        <item>@string/english</item>
+        <item>@string/spanish</item>
+        <item>@string/german</item>
+        <item>@string/french</item>
+        <item>@string/italian</item>
+        <item>@string/arabic</item>
+    </array>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+</resources>
